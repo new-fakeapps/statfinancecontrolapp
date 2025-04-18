@@ -25,7 +25,8 @@ Tuist/Dependencies/Cocoapods
 # Keep the project file and shared data
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
+# Ignore workspace data
+*.xcworkspacedata
 /*.gcno
 
 Derived/
