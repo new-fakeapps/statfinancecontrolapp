@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct SettingsView: View {
     @EnvironmentObject private var financeStore: FinanceStore
@@ -11,36 +12,77 @@ struct SettingsView: View {
             ZStack {
                 ThemeColors.darkBlue.ignoresSafeArea()
                 
-                List {
-                    Section(header: Text("Данные").foregroundColor(ThemeColors.secondaryText)) {
-                        Button(action: {
-                            showingConfirmationDialog = true
-                        }) {
-                            Label("Очистить все данные", systemImage: "trash")
-                                .foregroundColor(ThemeColors.primaryText)
+                ScrollView {
+                    VStack(spacing: 24) {
+                        // Data section
+                        VStack(alignment: .leading, spacing: 0) {
+                            Text("Данные")
+                                .font(.headline)
+                                .foregroundColor(ThemeColors.secondaryText)
+                                .padding(.horizontal)
+                                .padding(.bottom, 8)
+                            
+                            Button(action: {
+                                showingConfirmationDialog = true
+                            }) {
+                                HStack {
+                                    Image(systemName: "trash")
+                                        .foregroundColor(ThemeColors.primaryText)
+                                    Text("Очистить все данные")
+                                        .foregroundColor(ThemeColors.primaryText)
+                                    Spacer()
+                                }
+                                .padding()
+                                .background(ThemeColors.cardBackground)
+                                .cornerRadius(10)
+                            }
+                            .padding(.horizontal)
                         }
-                        .listRowBackground(ThemeColors.cardBackground)
-                    }
-                    
-                    Section(header: Text("О приложении").foregroundColor(ThemeColors.secondaryText)) {
-                        Button(action: {
-                            showingAboutSheet = true
-                        }) {
-                            Label("О разработчике", systemImage: "person.circle")
-                                .foregroundColor(ThemeColors.primaryText)
-                        }
-                        .listRowBackground(ThemeColors.cardBackground)
                         
-                        Button(action: {
-                            showingHelpAlert = true
-                        }) {
-                            Label("Помощь", systemImage: "questionmark.circle")
-                                .foregroundColor(ThemeColors.primaryText)
+                        // About section
+                        VStack(alignment: .leading, spacing: 0) {
+                            Text("О приложении")
+                                .font(.headline)
+                                .foregroundColor(ThemeColors.secondaryText)
+                                .padding(.horizontal)
+                                .padding(.bottom, 8)
+                            
+                            VStack(spacing: 1) {
+                                Button(action: {
+                                    showingAboutSheet = true
+                                }) {
+                                    HStack {
+                                        Image(systemName: "person.circle")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Text("О разработчике")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    .background(ThemeColors.cardBackground)
+                                    .cornerRadius(10)
+                                }
+                                
+                                Button(action: {
+                                    showingHelpAlert = true
+                                }) {
+                                    HStack {
+                                        Image(systemName: "questionmark.circle")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Text("Помощь")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    .background(ThemeColors.cardBackground)
+                                    .cornerRadius(10)
+                                }
+                            }
+                            .padding(.horizontal)
                         }
-                        .listRowBackground(ThemeColors.cardBackground)
                     }
+                    .padding(.vertical)
                 }
-                .scrollContentBackground(.hidden)
             }
             .navigationTitle("Настройки")
             .navigationBarTitleDisplayMode(.large)
