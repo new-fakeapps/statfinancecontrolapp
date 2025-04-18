@@ -18,17 +18,19 @@ Tuist/Dependencies/Carthage
 Tuist/Dependencies/SwiftPackageManager 
 # Avoid checking in build artifacts from CocoaPods dependencies.
 Tuist/Dependencies/Cocoapods 
+
 ### Xcode Patch ###
-*.xcodeproj/*
+# Allow xcodeproj files for project launch
+# *.xcodeproj
+# Keep the project file and shared data
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
 Derived/
-# Разрешаем включение xcodeproj в репозиторий
-# *.xcodeproj
-*.xcworkspace
+# Allow xcworkspace files for project launch
+# *.xcworkspace
 
 ## Build generated
 build/
