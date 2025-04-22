@@ -98,7 +98,7 @@ struct SettingsView: View {
             .alert("Помощь", isPresented: $showingHelpAlert) {
                 Button("OK", role: .cancel) {}
             } message: {
-                Text("Если у вас возникли вопросы или проблемы с приложением, пожалуйста, свяжитесь с нами по email: support@financemanager.com")
+                Text("Если вы столкнулись с проблемой пожалуйста, напишите нам на почту: financemanagerappsametfay@proton.me")
             }
             .sheet(isPresented: $showingAboutSheet) {
                 AboutView()
@@ -123,12 +123,12 @@ struct AboutView: View {
                             .foregroundColor(ThemeColors.accent)
                             .padding()
                         
-                        Text("Финансовый Менеджер")
+                        Text("СтатФинанс: Контроль Бюджета")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(ThemeColors.primaryText)
                         
-                        Text("Простое приложение для отслеживания доходов и расходов.")
+                        Text("Просто приложение для отслеживания доходов и расходов.")
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
                             .foregroundColor(ThemeColors.secondaryText)
@@ -162,7 +162,7 @@ struct AboutView: View {
                         
                         Spacer()
                         
-                        Text("© 2025 Finance Manager App")
+                        Text("© 2025 StatFinance: Budget Control App")
                             .font(.caption)
                             .foregroundColor(ThemeColors.secondaryText)
                     }
