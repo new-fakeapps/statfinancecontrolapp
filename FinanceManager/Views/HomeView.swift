@@ -17,6 +17,10 @@ struct HomeView: View {
                         BalanceCard(balance: financeStore.balance)
                             .padding(.horizontal)
                         
+                        // Monthly Income Goal Card
+                        MonthlyGoalCard()
+                            .padding(.horizontal)
+                        
                         // Action Buttons
                         VStack(spacing: 16) {
                             ActionButton(
@@ -292,5 +296,67 @@ struct SuccessBanner: View {
             }
             Spacer()
         }
+    }
+}
+
+// MARK: - Monthly Goal Card
+struct MonthlyGoalCard: View {
+    @EnvironmentObject private var financeStore: FinanceStore
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Text("Цель по доходам на месяц")
+                    .font(.subheadline)
+                    .foregroundColor(ThemeColors.secondaryText)
+                
+                Spacer()
+                
+                NavigationLink(destination: GoalsView()) {
+                    Image(systemName: "pencil.circle")
+                        .foregroundColor(ThemeColors.accent)
+                }
+            }
+            
+            if let incomeGoal = financeStore.budgetGoals.monthlyIncomeGoal, incomeGoal > 0 {
+                let progress = financeStore.getMonthlyIncomeGoalProgress()
+                let currentIncome = financeStore.monthlyIncome()
+                
+                VStack(alignment: .leading, spacing: 8) {
+                    ProgressBar(value: progress, color: progress >= 1.0 ? ThemeColors.incomeGreen : ThemeColors.accent)
+                        .frame(height: 10)
+                    
+                    HStack {
+                        Text("\(Int(currentIncome)) ₽")
+                            .font(.headline)
+                            .foregroundColor(ThemeColors.primaryText)
+                        
+                        Text("из \(Int(incomeGoal)) ₽")
+                            .font(.subheadline)
+                            .foregroundColor(ThemeColors.secondaryText)
+                        
+                        Spacer()
+                        
+                        Text("\(Int(progress * 100))%")
+                            .font(.headline)
+                            .foregroundColor(progress >= 1.0 ? ThemeColors.incomeGreen : ThemeColors.primaryText)
+                    }
+                }
+            } else {
+                HStack {
+                    Text("Цель не установлена")
+                        .foregroundColor(ThemeColors.secondaryText)
+                    
+                    Spacer()
+                    
+                    NavigationLink(destination: GoalsView()) {
+                        Text("Установить")
+                            .foregroundColor(ThemeColors.accent)
+                    }
+                }
+            }
+        }
+        .padding()
+        .glassCard()
     }
 }

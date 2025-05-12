@@ -12,17 +12,29 @@ struct MainTabView: View {
                 }
                 .tag(0)
             
+            RecurringTransactionsView()
+                .tabItem {
+                    Label("Повторения", systemImage: "repeat.circle")
+                }
+                .tag(1)
+            
+            GoalsView()
+                .tabItem {
+                    Label("Цели", systemImage: "target")
+                }
+                .tag(2)
+            
             StatsView()
                 .tabItem {
                     Label("Статистика", systemImage: "chart.bar.fill")
                 }
-                .tag(1)
+                .tag(3)
             
             SettingsView()
                 .tabItem {
                     Label("Настройки", systemImage: "gearshape.fill")
                 }
-                .tag(2)
+                .tag(4)
         }
         .environmentObject(financeStore)
     }
