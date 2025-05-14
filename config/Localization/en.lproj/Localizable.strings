@@ -1,0 +1,74 @@
+// Common
+"common.error.title" = "Ошибка";
+
+// Authorization Screen
+"authorization_screen.title" = "Авторизация";
+"authorization_screen.subtitle" = "Для полноценного пользования приложением необходимо авторизоваться";
+"authorization_screen.password_button.title" = "Пароль";
+"authorization_screen.login_button.title" = "Войти";
+"authorization_screen.forgot_button.title" = "У меня нет аккаунта";
+"authorization_screen.registration_unavaliable.title" = "Регистрация недоступна";
+"authorization_screen.notification.title" = "Для получения доступа в личный кабинет обратитесь к администрации заведения";
+"authorization_screen.auth_error.title" = "Вы ввели неверное имя пользователя или пароль";
+
+// History Screen
+"history_screen.title" = "История";
+
+// Main Page
+"main_page.title" = "Каталог";
+
+// Profile Page
+"profile_page.title" = "Профиль";
+"profile_page.logout_question.title" = "Вы точно хотите выйти?";
+"profile_page.confirm.title" = "Да";
+"profile_page.decline.title" = "Нет";
+"profile_page.delete_question.title" = "Вы действительно хотите удалить свой аккаунт?";
+"profile_page.delete_question.message" = "Все данные будут безвозвратно удалены";
+"profile_page.delete_notification.title" = "Ваша заявка отправлена на рассмотрение\nАккаунт будет удален в течение 2 недель";
+"profile_page.profile.title" = "Профиль";
+"profile_page.information.title" = "Личная информация";
+"profile_page.notification.title" = "Для изменения информации в профиле и удаления аккаунта обращайтесь к администратору клуба";
+"profile_page.logout_button.title" = "Выйти";
+"profile_page.delete_button.title" = "Удалить аккаунт";
+"profile_page.phone_number.title" = "Номер телефона";
+"profile_page.first_name.title" = "Имя";
+"profile_page.last_name.title" = "Фамилия";
+"profile_page.date_of_birth.title" = "Дата рождения";
+
+
+// Promocode
+"promocode_page.qr_scan.title" = "Сканировать QR-код";
+"promocode_page.title" = "Бонусы";
+"promocode_page.enter_code_placeholder.title" = "Введите код";
+"promocode_page.confirm.title" = "ОК";
+"promocode_page.invalid_code_error.title" = "Неверный QR код";
+"promocode_page.auth_error.title" = "Для активации данного QR кода выполните вход в аккаунт";
+"promocode_page.already_activated_error.title" = "Вы уже активировали данный QR код";
+"promocode_page.promocode_successfully_activated.title" = "Бонус №3 успешно активирован";
+"promocode_page.bonus_screen.title" = "Поздравляем!";
+"promocode_page.bonus_screen.description" = "Вы активировали вечную скидку подписчика 20% на все позиции меню!";
+"promocode_page.bonus_screen.info" = "Достаточно предоставить QR-код вашей карты лояльности при оплате заказа";
+
+// QR
+"qrcode_page.description.title" = "Отсканируете QR - код с помощью камеры вашего устройства";
+"qrcode_page.title" = "QR код";
+
+"subRows.versionUpdate.updateButton.title" = "Обновить";
+
+"fake_promo_code.congratulations.title" = "Поздравляем!";
+"fake_promo_code.congratulations.description" = "Вам начислены баллы за сеансы просмотра";
+"fake_promo_code.congratulations.showCard" = "";
+
+"subRows.versionUpdate.updateButton.title" = "Обновить";
+
+"new_version_alert.title" = "Новая версия";
+"new_version_alert.update" = "Обновить";
+"new_version_alert.cancel" = "Отмена";
+"new_version_alert.description" = "Исправлено несколько незначительных ошибок и улучшена производительность приложения";
+
+"location_permission.allowLabel.toggleLocationInSettingsText" = "<html>Включите <b>“Службы геолокации”</b> в настройках для дальнейшей работы.</html>";
+
+"location_permission.geoAllowLabel.text" = "Доступ к геолокации";
+"location_permission.getPermissionTextLabel.text" = "Наше приложение доступно только для ряда стран, поэтому нам важно знать ваше местоположение.";
+"location_permission.geoAllowButton.label.text" = "Доступ к геолокации";
+"location_permission.allowLabel.allowHtmlText" = "<html>Выберите <b>“Разрешить”</b> на следующем экране для дальнейшей работы.</html>";

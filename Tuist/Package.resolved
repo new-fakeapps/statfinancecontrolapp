@@ -1,0 +1,292 @@
+{
+  "pins" : [
+    {
+      "identity" : "abseil-cpp-binary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/abseil-cpp-binary.git",
+      "state" : {
+        "revision" : "df308b8b46607675f2b9ec8e569109008f9155ce",
+        "version" : "1.2022062300.1"
+      }
+    },
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "747c8db8d57b68d5e35275f10c92d55f982adbd4",
+        "version" : "4.9.1"
+      }
+    },
+    {
+      "identity" : "anycodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flight-School/AnyCodable",
+      "state" : {
+        "revision" : "862808b2070cd908cb04f9aafe7de83d35f81b05",
+        "version" : "0.6.7"
+      }
+    },
+    {
+      "identity" : "app-check",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/app-check.git",
+      "state" : {
+        "revision" : "3b62f154d00019ae29a71e9738800bb6f18b236d",
+        "version" : "10.19.2"
+      }
+    },
+    {
+      "identity" : "chipagecontrol",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChiliLabs/CHIPageControl.git",
+      "state" : {
+        "revision" : "2d16f651a6c885e8d7eff21b36bd1cae3130aa10",
+        "version" : "0.2.1"
+      }
+    },
+    {
+      "identity" : "collectionkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banck/CollectionKit.git",
+      "state" : {
+        "branch" : "feature/fix-remaining-height",
+        "revision" : "37ec7040af8ae9e4fbbf3ef23fcee05bcc75e923"
+      }
+    },
+    {
+      "identity" : "firebase-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/firebase-ios-sdk.git",
+      "state" : {
+        "revision" : "be49849dcba96f2b5ee550d4eceb2c0fa27dade4",
+        "version" : "10.22.1"
+      }
+    },
+    {
+      "identity" : "floatingpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banck/FloatingPanel.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "7469ac8e5df1e4ada9db5be79618167d1b671f66"
+      }
+    },
+    {
+      "identity" : "foundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PromiseKit/Foundation.git",
+      "state" : {
+        "revision" : "985f17fa69ee0e5b7eb3ff9be87ffc4e05fc0927",
+        "version" : "3.4.0"
+      }
+    },
+    {
+      "identity" : "googleappmeasurement",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleAppMeasurement.git",
+      "state" : {
+        "revision" : "482cfa4e5880f0a29f66ecfd60c5a62af28bd1f0",
+        "version" : "10.22.1"
+      }
+    },
+    {
+      "identity" : "googledatatransport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleDataTransport.git",
+      "state" : {
+        "revision" : "a637d318ae7ae246b02d7305121275bc75ed5565",
+        "version" : "9.4.0"
+      }
+    },
+    {
+      "identity" : "googleutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleUtilities.git",
+      "state" : {
+        "revision" : "57a1d307f42df690fdef2637f3e5b776da02aad6",
+        "version" : "7.13.3"
+      }
+    },
+    {
+      "identity" : "grpc-binary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/grpc-binary.git",
+      "state" : {
+        "revision" : "ea4cb5cc0c39c732b85386263116d2e2fdbbdc61",
+        "version" : "1.49.2"
+      }
+    },
+    {
+      "identity" : "gtm-session-fetcher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/gtm-session-fetcher.git",
+      "state" : {
+        "revision" : "a2ab612cb980066ee56d90d60d8462992c07f24b",
+        "version" : "3.5.0"
+      }
+    },
+    {
+      "identity" : "input-mask-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RedMadRobot/input-mask-ios.git",
+      "state" : {
+        "revision" : "40e33ad9fb8cef671f8c4f667f6c0a0043abcbb3",
+        "version" : "6.1.0"
+      }
+    },
+    {
+      "identity" : "interop-ios-for-google-sdks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/interop-ios-for-google-sdks.git",
+      "state" : {
+        "revision" : "2d12673670417654f08f5f90fdd62926dc3a2648",
+        "version" : "100.0.0"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "revision" : "c00b1ae9fa1ad8af4465bb6ca901f6943fc98eba",
+        "version" : "6.5.16"
+      }
+    },
+    {
+      "identity" : "leveldb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/leveldb.git",
+      "state" : {
+        "revision" : "a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+        "version" : "1.22.5"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "1d29eccc24cc8b75bff9f6804155112c0ffc9605",
+        "version" : "4.4.3"
+      }
+    },
+    {
+      "identity" : "marshal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/utahiosmac/Marshal.git",
+      "state" : {
+        "revision" : "bbd811be9b78352e74970d1c2c652e87c83ce51b",
+        "version" : "1.2.8"
+      }
+    },
+    {
+      "identity" : "motion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CosmicMind/Motion.git",
+      "state" : {
+        "branch" : "development",
+        "revision" : "808ac0cf1b67c5e4163ee867dd6c056836fcbc58"
+      }
+    },
+    {
+      "identity" : "nanopb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/nanopb.git",
+      "state" : {
+        "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+        "version" : "2.30910.0"
+      }
+    },
+    {
+      "identity" : "nvactivityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+      "state" : {
+        "revision" : "4a4726d15367d82bd3e9e1f01625bd76dbbb0c98",
+        "version" : "4.8.0"
+      }
+    },
+    {
+      "identity" : "phonenumberkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banck/PhoneNumberKit.git",
+      "state" : {
+        "branch" : "update/3.3.3",
+        "revision" : "5f9f45605399950ee0ae4fe517d5353a11031b64"
+      }
+    },
+    {
+      "identity" : "pmsuperbutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banck/PMSuperButton.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "546e6f1faab4ce8cfa8ab85b5c2d8236585cf2f6"
+      }
+    },
+    {
+      "identity" : "promisekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/PromiseKit.git",
+      "state" : {
+        "revision" : "8a98e31a47854d3180882c8068cc4d9381bf382d",
+        "version" : "6.22.1"
+      }
+    },
+    {
+      "identity" : "promises",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/promises.git",
+      "state" : {
+        "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
+        "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "fb50c1d20f24db5322b2f8f379de3618f75fe08e",
+        "version" : "5.15.5"
+      }
+    },
+    {
+      "identity" : "skeletonview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Juanpe/SkeletonView.git",
+      "state" : {
+        "revision" : "4b6f55cf66259d9ffd8b017267b89002f6de7964"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "d72aed98f8253ec1aa9ea1141e28150f408cf17f",
+        "version" : "1.29.0"
+      }
+    },
+    {
+      "identity" : "swiftentrykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banck/SwiftEntryKit.git",
+      "state" : {
+        "branch" : "fix/dismiss_completion",
+        "revision" : "96d7e4523276b025ef0935d744e92a649b9144f6"
+      }
+    },
+    {
+      "identity" : "visualeffectview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/efremidze/VisualEffectView.git",
+      "state" : {
+        "revision" : "df0121bbd2bb99c1ccd8eed5c5b932fb1648dfe4",
+        "version" : "4.1.5"
+      }
+    }
+  ],
+  "version" : 2
+}

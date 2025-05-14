@@ -1,0 +1,22 @@
+{
+    "name": "FinanceManager",
+    "display_name": "",
+    "application_id": "com.stat.finance.control.budget.app",
+    "dev_team_id": "8HHB329NQ2",
+    "associated_domains": [
+        "meditation.onelink.me"
+    ],
+    "version": "1.2",
+    "fastlane_issuer_id": "e6e60c3b-61f1-47d0-bd96-ef73e216d977",
+    "metrics": {
+        "appsflyer": {
+            "dev_key": "",
+            "app_id": ""
+        },
+        "mindbox": {
+            "app_id": "",
+            "domain": "",
+            "endpoint": ""
+        }
+    }
+}
