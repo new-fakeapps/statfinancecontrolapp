@@ -20,18 +20,13 @@ Tuist/Dependencies/SwiftPackageManager
 Tuist/Dependencies/Cocoapods 
 
 ### Xcode Patch ###
-# Allow xcodeproj files for project launch
-# *.xcodeproj
-# Keep the project file and shared data
+*.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
-# Ignore workspace data
-*.xcworkspacedata
+!*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
 Derived/
-# Allow xcworkspace files for project launch
-# *.xcworkspace
 
 ## Build generated
 build/
