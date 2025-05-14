@@ -6,6 +6,7 @@ import FirebaseMessaging
 import PromiseKit
 import SDWebImage
 import Lottie
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -45,6 +46,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = initRootViewController()
 //        window?.backgroundColor = .globalDynamicColor
         window?.makeKeyAndVisible()
+        
+        // Восстанавливаем напоминания при запуске приложения
+        restoreFinanceReminders()
+        
         return true
     }
     
@@ -61,6 +66,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         supportedInterfaceOrientationsFor window: UIWindow?
     ) -> UIInterfaceOrientationMask {
         return .allButUpsideDown
+    }
+    
+    // MARK: - Reminders
+    
+    // Восстанавливаем напоминания при запуске
+    private func restoreFinanceReminders() {
+        // Проверяем статус разрешений на уведомления
+        UNUserNotificationCenter.current().getNotificationSettings { settings in
+            guard settings.authorizationStatus == .authorized || 
+                  settings.authorizationStatus == .provisional ||
+                  settings.authorizationStatus == .ephemeral else {
+                // Если разрешений нет, не пытаемся восстанавливать напоминания
+                return
+            }
+            
+            // Получаем текущие настройки уведомлений
+            let reminderSettings = NotificationManager.shared.getReminderSettings()
+            
+            // Если есть дни и время, планируем напоминания заново
+            if !reminderSettings.days.isEmpty, let time = reminderSettings.time {
+                NotificationManager.shared.saveReminderSettings(days: reminderSettings.days, time: time)
+                print("🔄 Восстановлены финансовые напоминания при запуске приложения")
+            }
+        }
     }
 }
 

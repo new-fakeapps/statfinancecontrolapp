@@ -133,6 +133,7 @@
 		A9EB2D7BAF16134C0E40233A /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923D23B624C98914536C7EE4 /* Lottie.xcframework */; };
 		AA1C19D55E4E30B88098257E /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB611FC11C8022085CFE440 /* NVActivityIndicatorView.framework */; };
 		AA7A346CC538DA40CB9EE1D9 /* PhoneNumberKit_PhoneNumberKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1A60B9B563335F9831CDEF5 /* PhoneNumberKit_PhoneNumberKit.bundle */; };
+		ACB710712DD5088400CCCA0C /* ReminderConfigurationView .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */; };
 		AE8DBCFA44BCC119F9C7ED7E /* SplashScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7D53EC9505F2240089716 /* SplashScreenRouter.swift */; };
 		AEFDFE2F3F58907E18145075 /* Firebase_FirebaseCrashlytics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D755BDAD52B0BC1E14F4FD1 /* Firebase_FirebaseCrashlytics.bundle */; };
 		AF6111EF39263FC6CBE5EA5D /* leveldb_leveldb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C04E47E4C253CC3766C06 /* leveldb_leveldb.bundle */; };
@@ -394,6 +395,7 @@
 		A91E51E6C19C896B5541AA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DEC0670DFC97391BC6806D /* WebScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScreenProtocols.swift; sourceTree = "<group>"; };
 		ABCC853EE2A86A92EC73FDB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderConfigurationView .swift"; sourceTree = "<group>"; };
 		B26BB6A8755789A04C659641 /* TuistStrings+FinanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistStrings+FinanceManager.swift"; sourceTree = "<group>"; };
 		B30F9FBDDE4D4A21AE9936CF /* GoogleUtilities_GoogleUtilities_UserDefaults.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_GoogleUtilities_UserDefaults.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B667BE88FC7DFBCFE44F7353 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -1002,6 +1004,7 @@
 		F9CAB61919E1AD727B039F68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */,
 				BEFB717C02FCE16C5612CDC9 /* CategoryStatsView.swift */,
 				6BCAD6D60463A714F62B3E3C /* GoalsView.swift */,
 				7011AACA11B28850A81E258E /* HomeView.swift */,
@@ -1287,6 +1290,7 @@
 				C1BA836B7C8DBCE90BB19C7C /* TransactionModel.swift in Sources */,
 				ED449716556DE97CC0D97321 /* PresentationType.swift in Sources */,
 				687968B6C533BC2E7466E154 /* SplashScreenConfigurator.swift in Sources */,
+				ACB710712DD5088400CCCA0C /* ReminderConfigurationView .swift in Sources */,
 				C37F3B7A15089E46F70E44D7 /* SplashScreenInteractor.swift in Sources */,
 				1F74F8CF90A58D08D9BA6857 /* SplashScreenPresenter.swift in Sources */,
 				59DF0189EE280596F107F7CD /* SplashScreenProtocols.swift in Sources */,

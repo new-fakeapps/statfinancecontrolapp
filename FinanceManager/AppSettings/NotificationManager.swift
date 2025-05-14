@@ -7,8 +7,7 @@ public class NotificationManager {
     private let userDefaults = UserDefaults.standard
     private let notificationCenter = UNUserNotificationCenter.current()
     
-    private let selectedDaysKey = "selectedReminderDays"
-    private let reminderTimeKey = "reminderTime"
+    private let reminderSettingKey = "activeReminderSetting"
     
     private init() {}
     
@@ -61,14 +60,12 @@ public class NotificationManager {
         }
     }
     
-    private let reminderSettingKey = "activeReminderSetting"
-    
     public func saveReminderSettings(days: Set<Int>, time: Date) {
         print("Saving reminder settings - Days: \(days), Time: \(time)")
         
         // Всегда сначала отменяем все существующие уведомления
         // для предотвращения дублирования
-        cancelAllNotifications()
+        cancelAllReminders()
         
         // Если нет выбранных дней, просто выходим после отмены
         if days.isEmpty {
@@ -126,8 +123,8 @@ public class NotificationManager {
             
             // Создаем контент уведомления
             let content = UNMutableNotificationContent()
-            content.title = "Напоминание о фокусировании"
-            content.body = "Привет! Не забудь вернуться в приложение, чтобы сфокусироваться на своих целях и стать на шаг ближе к их достижению!"
+            content.title = "Напоминание о внесении средств"
+            content.body = "Пора записать доход или расход. Не забудьте зафиксировать изменения в бюджете!"
             content.sound = .default
             
             // Создаем календарный триггер для повторяющихся уведомлений
@@ -143,7 +140,7 @@ public class NotificationManager {
             
             // Создаем фиксированный идентификатор для каждого дня
             // Это гарантирует, что будет только одно уведомление на каждый день
-            let identifier = "focusReminder-day-\(weekday)"
+            let identifier = "financeReminder-day-\(weekday)"
             
             // Создаем запрос на уведомление
             let request = UNNotificationRequest(
@@ -190,14 +187,14 @@ public class NotificationManager {
     public func scheduleTestNotification() {
         let content = UNMutableNotificationContent()
         content.title = "Тестовое уведомление"
-        content.body = "Это тестовое уведомление для проверки работы системы. Регулярные уведомления настроены."
+        content.body = "Это тестовое финансовое уведомление для проверки работы системы."
         content.sound = .default
         
         // Создаем уведомление через 15 секунд
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 15, repeats: false)
         
         let request = UNNotificationRequest(
-            identifier: "testNotification",
+            identifier: "testFinanceNotification",
             content: content,
             trigger: trigger
         )
@@ -212,9 +209,22 @@ public class NotificationManager {
     }
     
     // Удаляет все уведомления и настройки
-    public func cancelAllNotifications() {
-        print("🧹 Cancelling all pending notifications")
-        notificationCenter.removeAllPendingNotificationRequests()
+    public func cancelAllReminders() {
+        print("🧹 Cancelling all pending finance reminders")
+        
+        // Получаем все запланированные уведомления
+        notificationCenter.getPendingNotificationRequests { requests in
+            // Фильтруем только уведомления с нашим идентификатором
+            let financeReminderIds = requests
+                .filter { $0.identifier.starts(with: "financeReminder") }
+                .map { $0.identifier }
+            
+            // Удаляем только финансовые напоминания
+            if !financeReminderIds.isEmpty {
+                self.notificationCenter.removePendingNotificationRequests(withIdentifiers: financeReminderIds)
+                print("🗑️ Removed \(financeReminderIds.count) finance reminders")
+            }
+        }
     }
 } 
 

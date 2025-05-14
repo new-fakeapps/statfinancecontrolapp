@@ -36,7 +36,7 @@ class SplashScreenViewController: UIViewController {
 extension SplashScreenViewController {
     
     private func configureUI() {
-        backgroundImage.backgroundColor = UIColor(hex: "0A57D7")
+        backgroundImage.backgroundColor = UIColor(hex: "0A162C")
         splashIcon.image = UIImage(named: "icon")
         activityIndicator.startAnimating()
         activityIndicator.hidesWhenStopped = true

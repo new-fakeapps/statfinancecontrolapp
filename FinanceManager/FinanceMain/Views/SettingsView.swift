@@ -1,11 +1,17 @@
 import SwiftUI
 import UIKit
+import UserNotifications
 
 struct SettingsView: View {
     @EnvironmentObject private var financeStore: FinanceStore
     @State private var showingConfirmationDialog = false
     @State private var showingAboutSheet = false
     @State private var showingHelpAlert = false
+    
+    // Состояния для напоминаний
+    @State private var showReminderConfig = false
+    @State private var showPermissionAlert = false
+    @State private var isRequestingPermission = false
     
     var body: some View {
         NavigationView {
@@ -22,19 +28,36 @@ struct SettingsView: View {
                                 .padding(.horizontal)
                                 .padding(.bottom, 8)
                             
-                            Button(action: {
-                                showingConfirmationDialog = true
-                            }) {
-                                HStack {
-                                    Image(systemName: "trash")
-                                        .foregroundColor(ThemeColors.primaryText)
-                                    Text("Очистить все данные")
-                                        .foregroundColor(ThemeColors.primaryText)
-                                    Spacer()
+                            VStack(spacing: 1) {
+                                Button(action: {
+                                    handleReminderTap()
+                                }) {
+                                    HStack {
+                                        Image(systemName: "bell")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Text("Напоминание о внесении средств")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    .background(ThemeColors.cardBackground)
+                                    .cornerRadius(10)
                                 }
-                                .padding()
-                                .background(ThemeColors.cardBackground)
-                                .cornerRadius(10)
+                                
+                                Button(action: {
+                                    showingConfirmationDialog = true
+                                }) {
+                                    HStack {
+                                        Image(systemName: "trash")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Text("Очистить все данные")
+                                            .foregroundColor(ThemeColors.primaryText)
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    .background(ThemeColors.cardBackground)
+                                    .cornerRadius(10)
+                                }
                             }
                             .padding(.horizontal)
                         }
@@ -100,11 +123,43 @@ struct SettingsView: View {
             } message: {
                 Text("Если вы столкнулись с проблемой пожалуйста, напишите нам на почту: financemanagerappsametfay@proton.me")
             }
+            .alert("Требуется разрешение", isPresented: $showPermissionAlert) {
+                Button("Отмена", role: .cancel) { }
+                Button("Настройки") {
+                    if let url = URL(string: UIApplication.openSettingsURLString) {
+                        UIApplication.shared.open(url)
+                    }
+                }
+            } message: {
+                Text("Для отправки напоминаний необходимо разрешить уведомления в настройках приложения.")
+            }
             .sheet(isPresented: $showingAboutSheet) {
                 AboutView()
             }
+            .sheet(isPresented: $showReminderConfig) {
+                NavigationView {
+                    ReminderConfigurationView()
+                }
+            }
         }
         .preferredColorScheme(.dark)
+    }
+    
+    // MARK: - Notification Handling
+    
+    private func handleReminderTap() {
+        isRequestingPermission = true
+        
+        NotificationManager.shared.requestNotificationPermission { granted in
+            DispatchQueue.main.async {
+                isRequestingPermission = false
+                if granted {
+                    showReminderConfig = true
+                } else {
+                    showPermissionAlert = true
+                }
+            }
+        }
     }
 }
 

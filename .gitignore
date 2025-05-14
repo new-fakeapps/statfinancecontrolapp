@@ -20,7 +20,8 @@ Tuist/Dependencies/SwiftPackageManager
 Tuist/Dependencies/Cocoapods 
 
 ### Xcode Patch ###
-*.xcodeproj/*
+# Игнорируем только пользовательские данные, а не весь проект
+*.xcodeproj/xcuserdata/
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
