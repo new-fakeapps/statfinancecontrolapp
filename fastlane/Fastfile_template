@@ -1,0 +1,102 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+desc "Push a new beta build to TestFlight"
+
+lane :uploadSync do |options|
+   get_certs(scheme: "{specification_name}")
+   buildApp(scheme: "{specification_name}")
+   uploadBuild(scheme: "{specification_name}")
+end
+
+lane :buildApp do |options| 
+  scheme = options[:scheme]
+
+  bundleId = get_product_bundle_id(project_filepath: "WL_Olymp.xcodeproj", scheme: scheme)
+
+  version = get_version_number(
+    target: scheme
+  )
+  buildVersion = get_build_number()
+
+  generate_api_key(options)
+
+  latestBuildNumber = latest_testflight_build_number(
+    version: version,
+    app_identifier: bundleId,
+    initial_build_number: 0
+  )
+  if latestBuildNumber >= Integer(buildVersion)
+    buildVersion = latestBuildNumber + 1
+  end
+  increment_build_number({
+    build_number: buildVersion
+  })
+
+  build_app(
+    scheme: scheme,
+    output_directory: "temp/",
+    output_name: scheme + ".ipa",
+    xcargs: "-allowProvisioningUpdates"
+  )
+end
+
+lane :uploadBuild do |options|
+  scheme = options[:scheme]
+  version = get_version_number(
+    target: scheme
+  )
+  buildVersion = get_build_number()
+
+  generate_api_key(scheme: scheme)
+  upload_to_testflight(
+    ipa: "temp/" +scheme + ".ipa",
+    skip_waiting_for_build_processing: true
+  )
+  clean_build_artifacts
+end
+
+lane :generate_api_key do |options|
+  key_file= Dir.glob("../config/*.p8").first
+  if key_file
+     key_id = File.basename(key_file, '.p8').split('_').last
+     issuer_id = "{issuer_id}"
+    app_store_connect_api_key(
+      key_id: key_id,
+      issuer_id: issuer_id,
+      key_filepath: File.expand_path(key_file),
+      duration: 1200,
+      in_house: false
+    )
+  else
+    puts 'Файл с расширением .p8 не найден в папке.'
+  end
+end
+
+lane :get_certs do |options|
+    generate_api_key(options)
+    scheme = options[:scheme]
+    bundleId = get_product_bundle_id(project_filepath: "WL_Olymp.xcodeproj", scheme: scheme)
+      match(
+       type: "appstore",
+       app_identifier: bundleId,
+       git_branch: bundleId.gsub('.', '')
+      )
+end
+end
