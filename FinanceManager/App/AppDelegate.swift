@@ -2,7 +2,7 @@
 import UIKit
 import FirebaseCore
 import FirebaseMessaging
-import IQKeyboardManagerSwift
+//import IQKeyboardManagerSwift
 import PromiseKit
 import SDWebImage
 import Lottie
