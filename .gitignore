@@ -96,4 +96,12 @@ fastlane/test_output
 
 Pods/Sourcery/Sourcery.docset
 /node_modules
-/package-lock.json 
+/package-lock.json
+
+# Configuration files with secrets
+config/GoogleService-Info.plist
+config/build_config.json
+scripts/upload.sh
+scripts/upload_template.sh
+fastlane/Matchfile
+fastlane/.env* 
