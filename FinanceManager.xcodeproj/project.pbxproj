@@ -128,12 +128,12 @@
 		A27C167C41D65FEEA3155A99 /* Firebase_FirebaseCoreInternal.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = FE798429C20EAB81470EECB3 /* Firebase_FirebaseCoreInternal.bundle */; };
 		A2E5C34FD009C18121547B17 /* TuistFonts+FinanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEB5E6117B81D34E2CA0F5 /* TuistFonts+FinanceManager.swift */; };
 		A4DF21B6BC645C4644A80B34 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF56B4B3CE780558ADA058A /* Extension+UIViewController.swift */; };
+		A5C1358B31EB4E774FB48A5A /* ReminderConfigurationView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B441B088F6E2CAD47EE6A6 /* ReminderConfigurationView .swift */; };
 		A64C94286E0F97D4F3117AD8 /* CeraProRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07183FD5CD0E85AC32C67AA6 /* CeraProRegular.otf */; };
 		A8CB6E73E72BED634642DE31 /* Firebase_FirebaseInstallations.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E6767B63D3F7A9A8D5F25C80 /* Firebase_FirebaseInstallations.bundle */; };
 		A9EB2D7BAF16134C0E40233A /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923D23B624C98914536C7EE4 /* Lottie.xcframework */; };
 		AA1C19D55E4E30B88098257E /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB611FC11C8022085CFE440 /* NVActivityIndicatorView.framework */; };
 		AA7A346CC538DA40CB9EE1D9 /* PhoneNumberKit_PhoneNumberKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1A60B9B563335F9831CDEF5 /* PhoneNumberKit_PhoneNumberKit.bundle */; };
-		ACB710712DD5088400CCCA0C /* ReminderConfigurationView .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */; };
 		AE8DBCFA44BCC119F9C7ED7E /* SplashScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7D53EC9505F2240089716 /* SplashScreenRouter.swift */; };
 		AEFDFE2F3F58907E18145075 /* Firebase_FirebaseCrashlytics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D755BDAD52B0BC1E14F4FD1 /* Firebase_FirebaseCrashlytics.bundle */; };
 		AF6111EF39263FC6CBE5EA5D /* leveldb_leveldb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C04E47E4C253CC3766C06 /* leveldb_leveldb.bundle */; };
@@ -152,6 +152,7 @@
 		BC87031466BD49EEB609F0C4 /* GoogleUtilities_Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A5B6D7C81A42DDBFA8F157 /* GoogleUtilities_Logger.framework */; };
 		BDFCE96E9750D8C1943E3DB8 /* VisualEffectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D577A2B7BA84CBA52F860915 /* VisualEffectView.framework */; };
 		C06EF0867B01015DB8C35B15 /* FirebaseFirestoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFC60B32DE1A23F0385E5E6 /* FirebaseFirestoreInternal.xcframework */; };
+		C1A2B3BABB84AEF6A2442223 /* ReminderConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B5AE8E2D18037FF7B762B /* ReminderConfigurationView.swift */; };
 		C1BA836B7C8DBCE90BB19C7C /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263618A8E875D9E40367698 /* TransactionModel.swift */; };
 		C223AE64422B34B57EDFA365 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA4679A9ABFAE96178F8FEF /* FirebaseInstallations.framework */; };
 		C2435866DCB088B3126CFCBC /* WebScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3E449708A888DCD9C8CFC /* WebScreenInteractor.swift */; };
@@ -290,6 +291,7 @@
 		1CB611FC11C8022085CFE440 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D755BDAD52B0BC1E14F4FD1 /* Firebase_FirebaseCrashlytics.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firebase_FirebaseCrashlytics.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E635A5F55621DB6B84BACB0 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		1F2B5AE8E2D18037FF7B762B /* ReminderConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderConfigurationView.swift; sourceTree = "<group>"; };
 		1F6522008382BB5AE2B0EE96 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E09E5EE9CAA277F50F3076 /* SplashScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInteractor.swift; sourceTree = "<group>"; };
 		2246C78E3835FD7D69DFAE1E /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 		3001385E66FBC9F3B3F760B6 /* PMSuperButton_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMSuperButton_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3016CB51E673AFC266627CE9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		3040EA272A7A32D98D2E69B0 /* _LottieStub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _LottieStub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B441B088F6E2CAD47EE6A6 /* ReminderConfigurationView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderConfigurationView .swift"; sourceTree = "<group>"; };
 		32972CE0BC0D2A7CD1241A64 /* GoogleUtilities_GoogleUtilities_Reachability.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_GoogleUtilities_Reachability.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		334B36DFBB31A314C8EDDA4E /* AppSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpecification.swift; sourceTree = "<group>"; };
 		36A9BFF0DD65A5B89E5870B0 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,7 +398,6 @@
 		A91E51E6C19C896B5541AA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DEC0670DFC97391BC6806D /* WebScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScreenProtocols.swift; sourceTree = "<group>"; };
 		ABCC853EE2A86A92EC73FDB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderConfigurationView .swift"; sourceTree = "<group>"; };
 		B26BB6A8755789A04C659641 /* TuistStrings+FinanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistStrings+FinanceManager.swift"; sourceTree = "<group>"; };
 		B30F9FBDDE4D4A21AE9936CF /* GoogleUtilities_GoogleUtilities_UserDefaults.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_GoogleUtilities_UserDefaults.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B667BE88FC7DFBCFE44F7353 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -1004,13 +1006,14 @@
 		F9CAB61919E1AD727B039F68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACB710702DD5088400CCCA0C /* ReminderConfigurationView .swift */,
 				BEFB717C02FCE16C5612CDC9 /* CategoryStatsView.swift */,
 				6BCAD6D60463A714F62B3E3C /* GoalsView.swift */,
 				7011AACA11B28850A81E258E /* HomeView.swift */,
 				6F201E27CDBCAF2D1291F55F /* MainTabView.swift */,
 				9EF046E1C2FF6F1E04B3DFBC /* MonthlyExpenseChartView.swift */,
 				CE109E1BAF29029A2E91D8FD /* RecurringTransactionsView.swift */,
+				30B441B088F6E2CAD47EE6A6 /* ReminderConfigurationView .swift */,
+				1F2B5AE8E2D18037FF7B762B /* ReminderConfigurationView.swift */,
 				0B937FC6273F75A694B0562E /* SettingsView.swift */,
 				1A7D60478550EA22CCD29AB8 /* StatsView.swift */,
 				9D47EDE976B7F1545B6D673D /* ThemeManager.swift */,
@@ -1290,7 +1293,6 @@
 				C1BA836B7C8DBCE90BB19C7C /* TransactionModel.swift in Sources */,
 				ED449716556DE97CC0D97321 /* PresentationType.swift in Sources */,
 				687968B6C533BC2E7466E154 /* SplashScreenConfigurator.swift in Sources */,
-				ACB710712DD5088400CCCA0C /* ReminderConfigurationView .swift in Sources */,
 				C37F3B7A15089E46F70E44D7 /* SplashScreenInteractor.swift in Sources */,
 				1F74F8CF90A58D08D9BA6857 /* SplashScreenPresenter.swift in Sources */,
 				59DF0189EE280596F107F7CD /* SplashScreenProtocols.swift in Sources */,
@@ -1303,6 +1305,8 @@
 				186E0A040809E3C9DC2E2AB6 /* MainTabView.swift in Sources */,
 				71377FF65ABB1874460CF375 /* MonthlyExpenseChartView.swift in Sources */,
 				EB764BFB94897810534CD4F9 /* RecurringTransactionsView.swift in Sources */,
+				A5C1358B31EB4E774FB48A5A /* ReminderConfigurationView .swift in Sources */,
+				C1A2B3BABB84AEF6A2442223 /* ReminderConfigurationView.swift in Sources */,
 				265E271C865E916F07C9CCE6 /* SettingsView.swift in Sources */,
 				2687D42EDE90CBDA33B12D74 /* StatsView.swift in Sources */,
 				D6EF46AF7BCE858817DFD667 /* ThemeManager.swift in Sources */,
@@ -1433,10 +1437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Derived/Entitlements/FinanceManager.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8HHB329NQ2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1453,46 +1457,46 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleAppMeasurement/GoogleAppMeasurementWrapper/include,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleDataTransport,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Logger/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public,
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Network/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/third_party/IsAppEncrypted/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/Core,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/Private,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/include,
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/abseil-cpp-binary/absl-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAnalyticsWrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAppCheck/Interop/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Extension",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseDynamicLinks/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseFirestoreInternal",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseInstallations/Source/Library/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseMessaging/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions/SourcesObjC",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseAnalyticsWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseDynamicLinksWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseFirestoreWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/grpc-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/grpcpp-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/openssl-grpc-Wrapper/include",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/leveldb,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/leveldb/include,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/nanopb/spm_headers,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/promises/Sources/FBLPromises/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleAppMeasurement/GoogleAppMeasurementWrapper/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleDataTransport,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Logger/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public,
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public",
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Network/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/third_party/IsAppEncrypted/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/Core,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/Private,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/include,
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/abseil-cpp-binary/absl-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAnalyticsWrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAppCheck/Interop/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Extension",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseDynamicLinks/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseFirestoreInternal",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseInstallations/Source/Library/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseMessaging/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions/SourcesObjC",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseAnalyticsWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseDynamicLinksWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseFirestoreWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/grpc-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/grpcpp-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/openssl-grpc-Wrapper/include",
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/leveldb,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/leveldb/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/nanopb/spm_headers,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/promises/Sources/FBLPromises/include,
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/FinanceManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1544,7 +1548,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/promises/Sources/FBLPromises/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAnalyticsTarget/FirebaseAnalyticsTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAnalyticsWrapper/FirebaseAnalyticsWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAppCheckInterop/FirebaseAppCheckInterop.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCore/FirebaseCore.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCoreExtension/FirebaseCoreExtension.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCrashlytics/FirebaseCrashlytics.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseDynamicLinks/FirebaseDynamicLinks.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseDynamicLinksTarget/FirebaseDynamicLinksTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseFirestoreInternalWrapper/FirebaseFirestoreInternalWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseFirestoreTarget/FirebaseFirestoreTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseInstallations/FirebaseInstallations.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseMessaging/FirebaseMessaging.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseSessionsObjC/FirebaseSessionsObjC.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleAppMeasurementTarget/GoogleAppMeasurementTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleDataTransport/GoogleDataTransport.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-AppDelegateSwizzler/GoogleUtilities-AppDelegateSwizzler.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Environment/GoogleUtilities-Environment.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Logger/GoogleUtilities-Logger.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-MethodSwizzler/GoogleUtilities-MethodSwizzler.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-NSData/GoogleUtilities-NSData.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Network/GoogleUtilities-Network.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Reachability/GoogleUtilities-Reachability.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-UserDefaults/GoogleUtilities-UserDefaults.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/SDWebImage/SDWebImage.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/abslWrapper/abslWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/grpcWrapper/grpcWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/grpcppWrapper/grpcppWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/leveldb/leveldb.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/nanopb/nanopb.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/opensslWrapper/opensslWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/third-party-IsAppEncrypted/third-party-IsAppEncrypted.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stat.finance.control.budget.app;
 				PRODUCT_NAME = FinanceManager;
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stat.finance.control.budget.app";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1563,10 +1567,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Derived/Entitlements/FinanceManager.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8HHB329NQ2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1583,46 +1587,46 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleAppMeasurement/GoogleAppMeasurementWrapper/include,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleDataTransport,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Logger/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public,
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Network/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/GoogleUtilities/third_party/IsAppEncrypted/Public,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/Core,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/Private,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/SDWebImage/SDWebImage/include,
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/abseil-cpp-binary/absl-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAnalyticsWrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAppCheck/Interop/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Extension",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseDynamicLinks/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseFirestoreInternal",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseInstallations/Source/Library/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseMessaging/Sources/Public",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions/SourcesObjC",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseAnalyticsWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseDynamicLinksWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseFirestoreWrap/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/grpc-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/grpcpp-Wrapper/include",
-					"/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/grpc-binary/openssl-grpc-Wrapper/include",
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/leveldb,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/leveldb/include,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/nanopb/spm_headers,
-					/Users/artem/Documents/FinanceManager1/Tuist/.build/checkouts/promises/Sources/FBLPromises/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleAppMeasurement/GoogleAppMeasurementWrapper/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleDataTransport,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Environment/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Logger/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public,
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public",
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Network/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/GoogleUtilities/third_party/IsAppEncrypted/Public,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/Core,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/Private,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/SDWebImage/SDWebImage/include,
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/abseil-cpp-binary/absl-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/Crashlytics/Crashlytics/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAnalyticsWrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseAppCheck/Interop/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Extension",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseCore/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseDynamicLinks/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseFirestoreInternal",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseInstallations/Source/Library/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseMessaging/Sources/Public",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/FirebaseSessions/SourcesObjC",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseAnalyticsWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseDynamicLinksWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/firebase-ios-sdk/SwiftPM-PlatformExclude/FirebaseFirestoreWrap/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/grpc-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/grpcpp-Wrapper/include",
+					"/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/grpc-binary/openssl-grpc-Wrapper/include",
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/leveldb,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/leveldb/include,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/nanopb/spm_headers,
+					/Users/artem/Documents/FinanceManager/Tuist/.build/checkouts/promises/Sources/FBLPromises/include,
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/FinanceManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1674,7 +1678,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/firebase-ios-sdk/CoreOnly/Sources/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/promises/Sources/FBLPromises/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAnalyticsTarget/FirebaseAnalyticsTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAnalyticsWrapper/FirebaseAnalyticsWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseAppCheckInterop/FirebaseAppCheckInterop.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCore/FirebaseCore.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCoreExtension/FirebaseCoreExtension.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseCrashlytics/FirebaseCrashlytics.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseDynamicLinks/FirebaseDynamicLinks.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseDynamicLinksTarget/FirebaseDynamicLinksTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseFirestoreInternalWrapper/FirebaseFirestoreInternalWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseFirestoreTarget/FirebaseFirestoreTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseInstallations/FirebaseInstallations.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseMessaging/FirebaseMessaging.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/FirebaseSessionsObjC/FirebaseSessionsObjC.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleAppMeasurementTarget/GoogleAppMeasurementTarget.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleDataTransport/GoogleDataTransport.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-AppDelegateSwizzler/GoogleUtilities-AppDelegateSwizzler.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Environment/GoogleUtilities-Environment.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Logger/GoogleUtilities-Logger.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-MethodSwizzler/GoogleUtilities-MethodSwizzler.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-NSData/GoogleUtilities-NSData.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Network/GoogleUtilities-Network.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-Reachability/GoogleUtilities-Reachability.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/GoogleUtilities-UserDefaults/GoogleUtilities-UserDefaults.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/SDWebImage/SDWebImage.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/abslWrapper/abslWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/grpcWrapper/grpcWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/grpcppWrapper/grpcppWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/leveldb/leveldb.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/nanopb/nanopb.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/opensslWrapper/opensslWrapper.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/third-party-IsAppEncrypted/third-party-IsAppEncrypted.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stat.finance.control.budget.app;
 				PRODUCT_NAME = FinanceManager;
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.stat.finance.control.budget.app";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;

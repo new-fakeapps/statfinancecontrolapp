@@ -80,7 +80,7 @@ extension FirebaseService {
 
         group.enter()
         var settingsResult: (snapshot: QuerySnapshot?, error: Error?) = (nil, AppError.unknownError)
-        db.collection("focusios").document("InternalSettings").collection("focusapp").getDocuments { (querySnapshot, error) in
+        db.collection("AppSettings").document("InternalSettings").collection("FinanceApp").getDocuments { (querySnapshot, error) in
             settingsResult = (querySnapshot, error)
             group.leave()
         }

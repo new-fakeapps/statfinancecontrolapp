@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDBuiUGSP6wSeSDHj6-Z_MeWBROtFru18g</string>
+	<string>AIzaSyDo38e_2BCbPbOrH4Z30YrcHNxjTzimXR4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>843365854226</string>
+	<string>305435601922</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>focus.tracker.reach.goals.app</string>
+	<string>com.stat.finance.control.budget.app</string>
 	<key>PROJECT_ID</key>
-	<string>focustrackerachievegoals</string>
+	<string>statfinanceapp</string>
 	<key>STORAGE_BUCKET</key>
-	<string>focustrackerachievegoals.firebasestorage.app</string>
+	<string>statfinanceapp.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:843365854226:ios:c6fa44c8e5281686f43ccb</string>
+	<string>1:305435601922:ios:9b37f05b9bad34fa170b1b</string>
 </dict>
 </plist>
